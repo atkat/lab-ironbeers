@@ -57,27 +57,12 @@ a, a:visited {
     box-shadow: 7px 8px 7px -1px rgba(0,0,0,0.42);
 }
 
-.image-container img {
+.image img {
     height: 200px;
     border: 1px solid red;
 }
 
-/* .container {
-    display: flex;
-}
-
-.description {
-    width: 400px;
-} */
-
-.random-beer-container .info-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: left;
-}
-
-.all-beers {
+.all-beers-page {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,6 +80,21 @@ a, a:visited {
     width: 400px;
 }
 
+.random-beer .one-beer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+.random-beer .one-beer p:first-of-type{
+    color: #BFBFBF;
+    font-size: small;
+}
+.random-beer .one-beer p:nth-of-type(2){
+    font-size: small;
+}
 /* .random-beer {
     display: flex;
     justify-content: center;
